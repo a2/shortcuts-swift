@@ -1,0 +1,42 @@
+{
+  "title": "Shortcuts Swift",
+  "subtitle": "Write Shortcuts in Playgrounds",
+  "publisherName": "Alexsander Akers",
+  "feedIdentifier": "io.a2.shortcuts-swift",
+  "contactURL": "https://github.com/a2/shortcuts-swift",
+  "formatVersion": "1.0",
+  "documents": [
+    {
+      "title": "Shortcuts Swift",
+      "detailSubtitle": "Write Shortcuts in Playgrounds",
+      "description": "The Shortcuts app makes use of a graphic user interface to create Shortcuts. In this Playground Book, you can write your own Shortcuts using Swift on your iPad in the Playgrounds app.",
+      "contentIdentifier": "io.a2.shortcuts-swift",
+      "contentVersion": "1.0",
+      "url": "https://github.com/a2/shortcuts-swift/releases/download/1.0/ShortcutsSwift.playgroundbook.zip",
+      "publishedDate": "2018-12-23T16:08:44+0000",
+      "lastUpdatedDate": "2018-12-23T16:08:44+0000",
+      "sha512": "9daf5f0eeb901e0512060c89dc799e13309a3be52ab26801ba051da45e9e011871880b0efb52426f68c9083eb0a3c6e96306ef488ebcf77556c77b6c56a96b65",
+      "difficultyLevel": "advanced",
+      "additionalInformation": [
+        {
+          "name": "Publisher",
+          "value": "Alexsander Akers"
+        },
+        {
+          "name": "Version",
+          "value": "1.0"
+        },
+        {
+          "type": "date",
+          "name": "Released",
+          "value": "2018-12-23T16:08:44+0000"
+        },
+        {
+          "name": "Languages",
+          "value": "English"
+        }
+      ],
+      "previewImageURLs": []
+    }
+  ]
+}
