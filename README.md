@@ -1,3 +1,5 @@
+![Banner](https://raw.githubusercontent.com/a2/shortcuts-swift/master/banner.png)
+
 # Shortcuts Swift
 
 [Subscription feed link](https://raw.githubusercontent.com/a2/shortcuts-swift/master/feed.json) or click [here](https://developer.apple.com/ul/sp0?url=https://raw.githubusercontent.com/a2/shortcuts-swift/master/feed.json) on your iPad with Swift Playgrounds 2 installed.
