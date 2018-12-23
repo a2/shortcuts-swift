@@ -13,11 +13,13 @@
       "contentVersion": "1.0",
       "url": "https://github.com/a2/shortcuts-swift/releases/download/1.0/ShortcutsSwift.playgroundbook.zip",
       "publishedDate": "2018-12-23T16:08:44+0000",
-      "lastUpdatedDate": "2018-12-23T16:08:44+0000",
+      "lastUpdatedDate": "2018-12-23T16:31:59+0000",
       "sha512": "9daf5f0eeb901e0512060c89dc799e13309a3be52ab26801ba051da45e9e011871880b0efb52426f68c9083eb0a3c6e96306ef488ebcf77556c77b6c56a96b65",
       "thumbnailURL": "https://raw.githubusercontent.com/a2/shortcuts-swift/master/thumbnail.png",
       "bannerImageURL": "https://raw.githubusercontent.com/a2/shortcuts-swift/master/banner.png",
-      "previewImageURLs": [],
+      "previewImageURLs": [
+        "https://raw.githubusercontent.com/a2/shortcuts-swift/master/preview.png"
+      ],
       "additionalInformation": [
         {
           "name": "Publisher",
