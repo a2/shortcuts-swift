@@ -5,10 +5,8 @@
 	<key>Name</key>
 	<string>Clap Along</string>
 	<key>LiveViewEdgeToEdge</key>
-	<true/>
+	<false/>
 	<key>LiveViewMode</key>
-	<string>VisibleByDefault</string>
-	<key>PlaygroundLoggingMode</key>
-	<string>Off</string>
+	<string>HiddenByDefault</string>
 </dict>
 </plist>

@@ -1,5 +1,5 @@
 var batteryLevel = Variable.actionOutput()
-try exportShortcut(
+try buildShortcut(
     comment("This Shortcut was generated in Swift.") +
     getBatteryLevel(&batteryLevel) +
     ifLessThan(20, ifTrue: (

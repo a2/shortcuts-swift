@@ -9,13 +9,11 @@
 	<key>ContentIdentifier</key>
 	<string>io.a2.shortcuts-swift</string>
 	<key>ContentVersion</key>
-	<string>1.0.0</string>
-	<key>ImageReference</key>
-	<string>Cover.png</string>
+	<string>1.0</string>
 	<key>DeploymentTarget</key>
-	<string>ios11.0</string>
+	<string>ios12.0</string>
 	<key>SwiftVersion</key>
-	<string>4.0</string>
+	<string>4.2</string>
 	<key>MinimumSwiftPlaygroundsVersion</key>
 	<string>1.6</string>
 	<key>Version</key>

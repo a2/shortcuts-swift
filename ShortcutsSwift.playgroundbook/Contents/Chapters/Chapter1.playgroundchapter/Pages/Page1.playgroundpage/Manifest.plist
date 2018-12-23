@@ -5,10 +5,8 @@
 	<key>Name</key>
 	<string>Warn for Low Battery Level</string>
 	<key>LiveViewEdgeToEdge</key>
-	<true/>
+	<false/>
 	<key>LiveViewMode</key>
-	<string>VisibleByDefault</string>
-	<key>PlaygroundLoggingMode</key>
-	<string>Off</string>
+	<string>HiddenByDefault</string>
 </dict>
 </plist>
