@@ -1,5 +1,4 @@
-let shortcutName = "Clap Along"
-let shortcutData = try exportShortcut(
+let shortcut = buildShortcut(
     comment("This Shortcut was generated in Swift.") +
     ask(question: "WHAT 👏 DO 👏 YOU 👏 WANT 👏 TO 👏 SAY") +
     changeCase(to: .uppercase) +
@@ -9,12 +8,5 @@ let shortcutData = try exportShortcut(
         ("Copy to Clipboard", copyToClipboard()),
     ])
 )
-//#-hidden-code
-import PlaygroundSupport
-if let remoteView = PlaygroundPage.current.liveView as? PlaygroundRemoteLiveViewProxy {
-    remoteView.send(.dictionary([
-        "name": .string(shortcutName),
-        "data": .data(shortcutData),
-    ]))
-}
-//#-end-hidden-code
+
+shareShortcut(shortcut, named: "Clap Along")
