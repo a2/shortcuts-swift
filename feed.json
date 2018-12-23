@@ -2,7 +2,7 @@
   "title": "Shortcuts Swift",
   "subtitle": "Write Shortcuts in Playgrounds",
   "publisherName": "Alexsander Akers",
-  "feedIdentifier": "io.a2.shortcuts-swift",
+  "feedIdentifier": "io.a2",
   "contactURL": "https://github.com/a2/shortcuts-swift",
   "formatVersion": "1.2",
   "documents": [
