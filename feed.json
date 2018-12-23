@@ -4,7 +4,7 @@
   "publisherName": "Alexsander Akers",
   "feedIdentifier": "io.a2.shortcuts-swift",
   "contactURL": "https://github.com/a2/shortcuts-swift",
-  "formatVersion": "1.0",
+  "formatVersion": "1.2",
   "documents": [
     {
       "title": "Shortcuts Swift",
