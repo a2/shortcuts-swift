@@ -8,6 +8,7 @@
   "documents": [
     {
       "title": "Shortcuts Swift",
+      "overviewSubtitle": "Write Shortcuts in Playgrounds",
       "description": "The Shortcuts app makes use of a graphic user interface to create Shortcuts. In this Playground Book, you can write your own Shortcuts using Swift on your iPad in the Playgrounds app.",
       "contentIdentifier": "io.a2.shortcuts-swift",
       "contentVersion": "1.0",
