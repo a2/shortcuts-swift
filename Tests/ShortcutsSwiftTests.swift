@@ -2,13 +2,12 @@ import XCTest
 import ShortcutsSwift
 
 class ShortcutsSwiftTests: XCTestCase {
-
     /// Tests that the battery level example compiles.
     func testBatteryExample() {
-        var batteryLevel = Variable.actionOutput()
+        let batteryLevel = actionOutput()
         _ = buildShortcut(
             comment("This Shortcut was generated in Swift.") +
-            getBatteryLevel().savingOutput(to: &batteryLevel) +
+            getBatteryLevel().savingOutput(to: batteryLevel) +
             ifLessThan(20, ifTrue: (
             setLowPowerMode(true) +
                 showResult("Your battery is at \(batteryLevel)%, you might want to charge it.")
@@ -32,4 +31,11 @@ class ShortcutsSwiftTests: XCTestCase {
         )
     }
 
+    func testDictionaryAggrandizements() {
+        let dictionaryVariable = actionOutput()
+        _ = buildShortcut(
+            dictionary(["number": .number(42)]).savingOutput(to: dictionaryVariable) +
+            showResult("\(dictionaryVariable.with(valueForKey: "number"))")
+        )
+    }
 }

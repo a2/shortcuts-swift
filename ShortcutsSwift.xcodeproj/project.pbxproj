@@ -13,8 +13,7 @@
 		5502FFD821D0F1A400CE7544 /* ActionOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFC321D0F1A300CE7544 /* ActionOutput.swift */; };
 		5502FFD921D0F1A400CE7544 /* InterpolatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFC421D0F1A300CE7544 /* InterpolatedText.swift */; };
 		5502FFDA21D0F1A400CE7544 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFC521D0F1A300CE7544 /* Attachment.swift */; };
-		5502FFDB21D0F1A400CE7544 /* PropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFC621D0F1A300CE7544 /* PropertyList.swift */; };
-		5502FFDC21D0F1A400CE7544 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFC721D0F1A300CE7544 /* Number.swift */; };
+		5502FFDC21D0F1A400CE7544 /* BaseTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFC721D0F1A300CE7544 /* BaseTypes.swift */; };
 		5502FFDD21D0F1A400CE7544 /* CopyToClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFC921D0F1A300CE7544 /* CopyToClipboard.swift */; };
 		5502FFDE21D0F1A400CE7544 /* AskForInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFCA21D0F1A300CE7544 /* AskForInput.swift */; };
 		5502FFDF21D0F1A400CE7544 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFCB21D0F1A400CE7544 /* Comment.swift */; };
@@ -31,6 +30,8 @@
 		5502FFEA21D0F1A400CE7544 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFD621D0F1A400CE7544 /* Action.swift */; };
 		5502FFEC21D0F29700CE7544 /* PlaygroundSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFEB21D0F29700CE7544 /* PlaygroundSupport.swift */; };
 		5502FFF321D0F58400CE7544 /* ShortcutsSwift.playgroundbook in Resources */ = {isa = PBXBuildFile; fileRef = 5502FFF221D0F58400CE7544 /* ShortcutsSwift.playgroundbook */; };
+		83F8639621D1454600925583 /* Aggrandizement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8639521D1454600925583 /* Aggrandizement.swift */; };
+		83F8639821D15F7E00925583 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8639721D15F7E00925583 /* Dictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +53,7 @@
 		5502FFC321D0F1A300CE7544 /* ActionOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionOutput.swift; sourceTree = "<group>"; };
 		5502FFC421D0F1A300CE7544 /* InterpolatedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterpolatedText.swift; sourceTree = "<group>"; };
 		5502FFC521D0F1A300CE7544 /* Attachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
-		5502FFC621D0F1A300CE7544 /* PropertyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyList.swift; sourceTree = "<group>"; };
-		5502FFC721D0F1A300CE7544 /* Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		5502FFC721D0F1A300CE7544 /* BaseTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTypes.swift; sourceTree = "<group>"; };
 		5502FFC921D0F1A300CE7544 /* CopyToClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyToClipboard.swift; sourceTree = "<group>"; };
 		5502FFCA21D0F1A300CE7544 /* AskForInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskForInput.swift; sourceTree = "<group>"; };
 		5502FFCB21D0F1A400CE7544 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
@@ -70,6 +70,8 @@
 		5502FFD621D0F1A400CE7544 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		5502FFEB21D0F29700CE7544 /* PlaygroundSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundSupport.swift; sourceTree = "<group>"; };
 		5502FFF221D0F58400CE7544 /* ShortcutsSwift.playgroundbook */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ShortcutsSwift.playgroundbook; sourceTree = "<group>"; };
+		83F8639521D1454600925583 /* Aggrandizement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aggrandizement.swift; sourceTree = "<group>"; };
+		83F8639721D15F7E00925583 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,11 +128,11 @@
 				5502FFD621D0F1A400CE7544 /* Action.swift */,
 				5502FFC321D0F1A300CE7544 /* ActionOutput.swift */,
 				5502FFC821D0F1A300CE7544 /* Actions */,
+				83F8639521D1454600925583 /* Aggrandizement.swift */,
 				5502FFC521D0F1A300CE7544 /* Attachment.swift */,
+				5502FFC721D0F1A300CE7544 /* BaseTypes.swift */,
 				5502FFD521D0F1A400CE7544 /* BuildShortcut.swift */,
 				5502FFC421D0F1A300CE7544 /* InterpolatedText.swift */,
-				5502FFC721D0F1A300CE7544 /* Number.swift */,
-				5502FFC621D0F1A300CE7544 /* PropertyList.swift */,
 				5502FFC121D0F1A300CE7544 /* UI */,
 				5502FFD421D0F1A400CE7544 /* Variable.swift */,
 			);
@@ -155,6 +157,7 @@
 				5502FFCB21D0F1A400CE7544 /* Comment.swift */,
 				5502FFCD21D0F1A400CE7544 /* Conditional.swift */,
 				5502FFC921D0F1A300CE7544 /* CopyToClipboard.swift */,
+				83F8639721D15F7E00925583 /* Dictionary.swift */,
 				5502FFD321D0F1A400CE7544 /* GetBatteryLevel.swift */,
 				5502FFCC21D0F1A400CE7544 /* ReplaceText.swift */,
 				5502FFD221D0F1A400CE7544 /* SetLowPowerMode.swift */,
@@ -291,6 +294,7 @@
 				5502FFE621D0F1A400CE7544 /* SetLowPowerMode.swift in Sources */,
 				5502FFE821D0F1A400CE7544 /* Variable.swift in Sources */,
 				5502FFDA21D0F1A400CE7544 /* Attachment.swift in Sources */,
+				83F8639621D1454600925583 /* Aggrandizement.swift in Sources */,
 				5502FFE021D0F1A400CE7544 /* ReplaceText.swift in Sources */,
 				5502FFE121D0F1A400CE7544 /* Conditional.swift in Sources */,
 				5502FFD921D0F1A400CE7544 /* InterpolatedText.swift in Sources */,
@@ -298,11 +302,11 @@
 				5502FFDE21D0F1A400CE7544 /* AskForInput.swift in Sources */,
 				5502FFE221D0F1A400CE7544 /* ChangeCase.swift in Sources */,
 				5502FFE921D0F1A400CE7544 /* BuildShortcut.swift in Sources */,
-				5502FFDC21D0F1A400CE7544 /* Number.swift in Sources */,
+				5502FFDC21D0F1A400CE7544 /* BaseTypes.swift in Sources */,
 				5502FFD821D0F1A400CE7544 /* ActionOutput.swift in Sources */,
 				5502FFEC21D0F29700CE7544 /* PlaygroundSupport.swift in Sources */,
-				5502FFDB21D0F1A400CE7544 /* PropertyList.swift in Sources */,
 				5502FFEA21D0F1A400CE7544 /* Action.swift in Sources */,
+				83F8639821D15F7E00925583 /* Dictionary.swift in Sources */,
 				5502FFE421D0F1A400CE7544 /* Share.swift in Sources */,
 				5502FFDD21D0F1A400CE7544 /* CopyToClipboard.swift in Sources */,
 				5502FFDF21D0F1A400CE7544 /* Comment.swift in Sources */,

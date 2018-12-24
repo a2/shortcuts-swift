@@ -25,9 +25,6 @@ func withInterpolatedText(_ string: String) -> Any {
 
     return [
         "WFSerializationType": "WFTextTokenString",
-        "Value": [
-            "attachmentsByRange": attachments,
-            "string": result,
-        ] as PropertyList,
+        "Value": ["string": result, "attachmentsByRange": attachments],
     ] as PropertyList
 }

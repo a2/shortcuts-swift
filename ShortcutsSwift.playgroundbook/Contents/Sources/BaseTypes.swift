@@ -1,5 +1,7 @@
 import Foundation
 
+public typealias PropertyList = [String: Any]
+
 public protocol Number {}
 extension Int8: Number {}
 extension Int16: Number {}
