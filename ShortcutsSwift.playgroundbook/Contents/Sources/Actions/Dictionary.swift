@@ -61,6 +61,42 @@ public enum DictionaryValue {
     }
 }
 
+extension DictionaryValue: ExpressibleByArrayLiteral {
+    public init(arrayLiteral elements: DictionaryValue...) {
+        self = .array(elements)
+    }
+}
+
+extension DictionaryValue: ExpressibleByBooleanLiteral {
+    public init(booleanLiteral value: Bool) {
+        self = .boolean(value)
+    }
+}
+
+extension DictionaryValue: ExpressibleByDictionaryLiteral {
+    public init(dictionaryLiteral elements: (String, DictionaryValue)...) {
+        self = .dictionary(Dictionary(uniqueKeysWithValues: elements))
+    }
+}
+
+extension DictionaryValue: ExpressibleByIntegerLiteral {
+    public init(integerLiteral value: Int) {
+        self = .number(value)
+    }
+}
+
+extension DictionaryValue: ExpressibleByFloatLiteral {
+    public init(floatLiteral value: Double) {
+        self = .number(value)
+    }
+}
+
+extension DictionaryValue: ExpressibleByStringLiteral {
+    public init(stringLiteral value: String) {
+        self = .string(value)
+    }
+}
+
 func serialize(_ dictionary: [String: DictionaryValue]) -> PropertyList {
     var valueItems = [PropertyList]()
     valueItems.reserveCapacity(dictionary.count)
