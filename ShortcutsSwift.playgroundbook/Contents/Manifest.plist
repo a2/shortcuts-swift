@@ -10,6 +10,8 @@
 	<string>io.a2.shortcuts-swift</string>
 	<key>ContentVersion</key>
 	<string>1.0</string>
+	<key>ImageReference</key>
+	<string>Cover.png</string>
 	<key>DeploymentTarget</key>
 	<string>ios12.0</string>
 	<key>SwiftVersion</key>
