@@ -32,6 +32,6 @@ public enum TextCase {
     }
 }
 
-public func changeCase(to case: TextCase) -> Action {
+public func changeCase(to case: TextCase) -> ActionWithOutput {
     return Action(identifier: "is.workflow.actions.text.changecase", parameters: ["WFCaseType": `case`.parameterValue])
 }
