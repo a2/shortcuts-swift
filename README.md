@@ -39,6 +39,10 @@ let shortcut = buildShortcut(
 )
 ```
 
+## Contributing
+
+Please read the [Contributions Guide](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md) before getting started. You will need Xcode 10 or newer to build the project.
+
 ## Authors
 
 [Alexsander Akers](https://github.com/a2) and [Alexis Aubry](https://github.com/alexaubry)
