@@ -1,5 +1,8 @@
-import PlaygroundSupport
 import UIKit
+
+#if !Xcode
+import PlaygroundSupport
+#endif
 
 public class ShortcutShareViewController: UIViewController, PlaygroundLiveViewMessageHandler, PlaygroundLiveViewSafeAreaContainer {
     var button: UIButton?
