@@ -8,7 +8,7 @@ public indirect enum PlaygroundValue {
     case integer(Int)
     case string(String)
     case array([PlaygroundValue])
-    case dictionary([String : PlaygroundValue])
+    case dictionary([String: PlaygroundValue])
 }
 
 public protocol PlaygroundLiveViewMessageHandler {
