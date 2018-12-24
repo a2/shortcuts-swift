@@ -18,13 +18,13 @@ If the above doesn't help, please [submit an issue](https://github.com/a2/shortc
 
 ### Prerequisites
 
-To develop _ShortcutsSwift_, you will need to use an Xcode version compatible with the Swift version specified in the [README](https://github.com/a2/swift-shortcuts/#requirements).
+To develop _ShortcutsSwift_, you will need to use an Xcode version compatible with the Swift version specified in the [README](https://github.com/a2/shortcuts-swift/#contributing).
 
 ### Checking out the repository
 
 - Click the “Fork” button in the upper right corner of repo
 - Clone your fork:
-    - `git clone https://github.com/<YOUR_GITHUB_USERNAME>/swift-shortcuts.git`
+    - `git clone https://github.com/<YOUR_GITHUB_USERNAME>/shortcuts-swift.git`
 - Create a new branch to work on:
     - `git checkout -b <YOUR_BRANCH_NAME>`
     - A good name for a branch describes the thing you’ll be working on, e.g. `add-action`, `fix-bug`, etc.
