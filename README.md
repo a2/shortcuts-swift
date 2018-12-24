@@ -2,6 +2,8 @@
 
 # Shortcuts Swift
 
+[![Build Status](https://dev.azure.com/pandamonia/shortcuts-swift/_apis/build/status/a2.shortcuts-swift?branchName=master)](https://dev.azure.com/pandamonia/shortcuts-swift/_build/latest?definitionId=3?branchName=master)
+
 [Subscription feed link](https://raw.githubusercontent.com/a2/shortcuts-swift/master/feed.json) or click [here](https://developer.apple.com/ul/sp0?url=https://raw.githubusercontent.com/a2/shortcuts-swift/master/feed.json) on your iPad with Swift Playgrounds 2 installed.
 
 ## Example
@@ -12,7 +14,7 @@
 var batteryLevel = Variable.actionOutput()
 let shortcut = buildShortcut(
     comment("This Shortcut was generated in Swift.") +
-    getBatteryLevel(&batteryLevel) +
+    getBatteryLevel.savingOutput(to: &batteryLevel) +
     ifLessThan(20, ifTrue: (
         setLowPowerMode(true) +
         showResult("Your battery is at \(batteryLevel)%, you might want to charge it.")
