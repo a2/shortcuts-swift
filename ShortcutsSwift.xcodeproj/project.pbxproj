@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5502001621D10C9200CE7544 /* ShortcutsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502001521D10C9200CE7544 /* ShortcutsSwiftTests.swift */; };
+		5502001821D10C9200CE7544 /* ShortcutsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5502FF8621D0F06500CE7544 /* ShortcutsSwift.framework */; };
 		5502FFD721D0F1A400CE7544 /* ShortcutShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFC221D0F1A300CE7544 /* ShortcutShareViewController.swift */; };
 		5502FFD821D0F1A400CE7544 /* ActionOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFC321D0F1A300CE7544 /* ActionOutput.swift */; };
 		5502FFD921D0F1A400CE7544 /* InterpolatedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502FFC421D0F1A300CE7544 /* InterpolatedText.swift */; };
@@ -31,7 +33,20 @@
 		5502FFF321D0F58400CE7544 /* ShortcutsSwift.playgroundbook in Resources */ = {isa = PBXBuildFile; fileRef = 5502FFF221D0F58400CE7544 /* ShortcutsSwift.playgroundbook */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5502001921D10C9200CE7544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5502FF7D21D0F06500CE7544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5502FF8521D0F06500CE7544;
+			remoteInfo = ShortcutsSwift;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5502001321D10C9200CE7544 /* ShortcutsSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortcutsSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5502001521D10C9200CE7544 /* ShortcutsSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsSwiftTests.swift; sourceTree = "<group>"; };
+		5502001721D10C9200CE7544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5502FF8621D0F06500CE7544 /* ShortcutsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShortcutsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5502FFC221D0F1A300CE7544 /* ShortcutShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortcutShareViewController.swift; sourceTree = "<group>"; };
 		5502FFC321D0F1A300CE7544 /* ActionOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionOutput.swift; sourceTree = "<group>"; };
@@ -58,6 +73,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5502001021D10C9200CE7544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5502001821D10C9200CE7544 /* ShortcutsSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5502FF8321D0F06500CE7544 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,12 +91,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5502001421D10C9200CE7544 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5502001521D10C9200CE7544 /* ShortcutsSwiftTests.swift */,
+				5502001721D10C9200CE7544 /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		5502FF7C21D0F06500CE7544 = {
 			isa = PBXGroup;
 			children = (
 				5502FFF221D0F58400CE7544 /* ShortcutsSwift.playgroundbook */,
 				5502FFED21D0F2AB00CE7544 /* Helpers */,
 				5502FFC021D0F1A300CE7544 /* Sources */,
+				5502001421D10C9200CE7544 /* Tests */,
 				5502FF8721D0F06500CE7544 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				5502FF8621D0F06500CE7544 /* ShortcutsSwift.framework */,
+				5502001321D10C9200CE7544 /* ShortcutsSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,16 +123,16 @@
 		5502FFC021D0F1A300CE7544 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5502FFD621D0F1A400CE7544 /* Action.swift */,
-				5502FFC321D0F1A300CE7544 /* ActionOutput.swift */,
-				5502FFC821D0F1A300CE7544 /* Actions */,
-				5502FFC521D0F1A300CE7544 /* Attachment.swift */,
-				5502FFD521D0F1A400CE7544 /* BuildShortcut.swift */,
-				5502FFC421D0F1A300CE7544 /* InterpolatedText.swift */,
-				5502FFC721D0F1A300CE7544 /* Number.swift */,
-				5502FFC621D0F1A300CE7544 /* PropertyList.swift */,
 				5502FFC121D0F1A300CE7544 /* UI */,
+				5502FFC321D0F1A300CE7544 /* ActionOutput.swift */,
+				5502FFC421D0F1A300CE7544 /* InterpolatedText.swift */,
+				5502FFC521D0F1A300CE7544 /* Attachment.swift */,
+				5502FFC621D0F1A300CE7544 /* PropertyList.swift */,
+				5502FFC721D0F1A300CE7544 /* Number.swift */,
+				5502FFC821D0F1A300CE7544 /* Actions */,
 				5502FFD421D0F1A400CE7544 /* Variable.swift */,
+				5502FFD521D0F1A400CE7544 /* BuildShortcut.swift */,
+				5502FFD621D0F1A400CE7544 /* Action.swift */,
 			);
 			name = Sources;
 			path = ShortcutsSwift.playgroundbook/Contents/Sources;
@@ -151,6 +185,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		5502001221D10C9200CE7544 /* ShortcutsSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5502001D21D10C9A00CE7544 /* Build configuration list for PBXNativeTarget "ShortcutsSwiftTests" */;
+			buildPhases = (
+				5502000F21D10C9200CE7544 /* Sources */,
+				5502001021D10C9200CE7544 /* Frameworks */,
+				5502001121D10C9200CE7544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5502001A21D10C9200CE7544 /* PBXTargetDependency */,
+			);
+			name = ShortcutsSwiftTests;
+			productName = ShortcutsSwiftTests;
+			productReference = 5502001321D10C9200CE7544 /* ShortcutsSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		5502FF8521D0F06500CE7544 /* ShortcutsSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5502FF8E21D0F06500CE7544 /* Build configuration list for PBXNativeTarget "ShortcutsSwift" */;
@@ -175,9 +227,13 @@
 		5502FF7D21D0F06500CE7544 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Pandamonia LLC";
 				TargetAttributes = {
+					5502001221D10C9200CE7544 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					5502FF8521D0F06500CE7544 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -196,11 +252,19 @@
 			projectRoot = "";
 			targets = (
 				5502FF8521D0F06500CE7544 /* ShortcutsSwift */,
+				5502001221D10C9200CE7544 /* ShortcutsSwiftTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5502001121D10C9200CE7544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5502FF8421D0F06500CE7544 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,6 +276,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5502000F21D10C9200CE7544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5502001621D10C9200CE7544 /* ShortcutsSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5502FF8221D0F06500CE7544 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,7 +314,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5502001A21D10C9200CE7544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5502FF8521D0F06500CE7544 /* ShortcutsSwift */;
+			targetProxy = 5502001921D10C9200CE7544 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		5502001B21D10C9300CE7544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.ShortcutsSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5502001C21D10C9300CE7544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.pandamonia.ShortcutsSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		5502FF8C21D0F06500CE7544 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -422,6 +538,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5502001D21D10C9A00CE7544 /* Build configuration list for PBXNativeTarget "ShortcutsSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5502001B21D10C9300CE7544 /* Debug */,
+				5502001C21D10C9300CE7544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5502FF8021D0F06500CE7544 /* Build configuration list for PBXProject "ShortcutsSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
