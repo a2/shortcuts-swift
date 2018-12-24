@@ -89,16 +89,16 @@
 		5502FFC021D0F1A300CE7544 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5502FFC121D0F1A300CE7544 /* UI */,
-				5502FFC321D0F1A300CE7544 /* ActionOutput.swift */,
-				5502FFC421D0F1A300CE7544 /* InterpolatedText.swift */,
-				5502FFC521D0F1A300CE7544 /* Attachment.swift */,
-				5502FFC621D0F1A300CE7544 /* PropertyList.swift */,
-				5502FFC721D0F1A300CE7544 /* Number.swift */,
-				5502FFC821D0F1A300CE7544 /* Actions */,
-				5502FFD421D0F1A400CE7544 /* Variable.swift */,
-				5502FFD521D0F1A400CE7544 /* BuildShortcut.swift */,
 				5502FFD621D0F1A400CE7544 /* Action.swift */,
+				5502FFC321D0F1A300CE7544 /* ActionOutput.swift */,
+				5502FFC821D0F1A300CE7544 /* Actions */,
+				5502FFC521D0F1A300CE7544 /* Attachment.swift */,
+				5502FFD521D0F1A400CE7544 /* BuildShortcut.swift */,
+				5502FFC421D0F1A300CE7544 /* InterpolatedText.swift */,
+				5502FFC721D0F1A300CE7544 /* Number.swift */,
+				5502FFC621D0F1A300CE7544 /* PropertyList.swift */,
+				5502FFC121D0F1A300CE7544 /* UI */,
+				5502FFD421D0F1A400CE7544 /* Variable.swift */,
 			);
 			name = Sources;
 			path = ShortcutsSwift.playgroundbook/Contents/Sources;
