@@ -1,6 +1,6 @@
 import Foundation
 
-struct Attachment: PropertyListConvertible {
+struct Attachment {
     let uuid: UUID
     let outputName: String?
     let type: String

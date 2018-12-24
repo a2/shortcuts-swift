@@ -1,10 +1,15 @@
 import Foundation
 
-public struct Action: PropertyListConvertible {
-    let identifier: String
-    let parameters: PropertyList
+public struct Action {
+    public var identifier: String
+    public var parameters: PropertyList
 
-    public var propertyList: PropertyList {
+    public init(identifier: String, parameters: PropertyList) {
+        self.identifier = identifier
+        self.parameters = parameters
+    }
+
+    var propertyList: PropertyList {
         return [
             "WFWorkflowActionIdentifier": identifier,
             "WFWorkflowActionParameters": parameters

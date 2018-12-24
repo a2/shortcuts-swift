@@ -1,6 +1,6 @@
 import Foundation
 
-public struct Variable: PropertyListConvertible, CustomStringConvertible {
+public struct Variable: CustomStringConvertible {
     var value: Attachment
     // var serializationType: SerializationType
 
@@ -8,7 +8,7 @@ public struct Variable: PropertyListConvertible, CustomStringConvertible {
         return Variable(value: Attachment(uuid: UUID(), outputName: name, type: "ActionOutput"))
     }
 
-    public var propertyList: PropertyList {
+    var propertyList: PropertyList {
         return [
             "Value": value.propertyList,
             // "WFSerializationType": type
