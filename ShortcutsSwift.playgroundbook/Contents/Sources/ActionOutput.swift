@@ -21,7 +21,7 @@ public protocol ActionOutputProviding {
      *
      * Example usage:
      * ~~~swift
-     * let batteryLevel = Variable.actionOutput()
+     * var batteryLevel = Variable.actionOutput()
      * let shortcut = buildShortcut(
      *     getBatteryLevel().savingOutput(to: &batteryLevel)
      * )

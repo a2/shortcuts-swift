@@ -8,7 +8,7 @@ class ShortcutsSwiftTests: XCTestCase {
         var batteryLevel = Variable.actionOutput()
         _ = buildShortcut(
             comment("This Shortcut was generated in Swift.") +
-            getBatteryLevel(&batteryLevel) +
+            getBatteryLevel().savingOutput(to: &batteryLevel) +
             ifLessThan(20, ifTrue: (
                 setLowPowerMode(true) +
                     showResult("Your battery is at \(batteryLevel)%, you might want to charge it.")
