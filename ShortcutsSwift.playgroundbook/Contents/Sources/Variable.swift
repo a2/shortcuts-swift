@@ -5,7 +5,23 @@ public struct Variable: CustomStringConvertible {
     // var serializationType: SerializationType
 
     public static func actionOutput(name: String? = nil) -> Variable {
-        return Variable(value: Attachment(uuid: UUID(), outputName: name, type: "ActionOutput"))
+        return Variable(value: Attachment(type: "ActionOutput", outputName: name, outputUUID: UUID()))
+    }
+
+    public static var askWhenRun: Variable {
+        return Variable(value: Attachment(type: "Ask"))
+    }
+
+    public static var clipboard: Variable {
+        return Variable(value: Attachment(type: "Clipboard"))
+    }
+
+    public static var currentDate: Variable {
+        return Variable(value: Attachment(type: "CurrentDate"))
+    }
+
+    public static var shortcutInput: Variable {
+        return Variable(value: Attachment(type: "ExtensionInput"))
     }
 
     var propertyList: PropertyList {

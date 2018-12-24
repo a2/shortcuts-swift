@@ -37,11 +37,8 @@ extension Action: ActionOutputProviding {
         var parameters = self.parameters
 
         let variable = variable.pointee
-        parameters["UUID"] = variable.value.uuid.uuidString
-
-        if let outputName = variable.value.outputName {
-            parameters["CustomOutputName"] = outputName
-        }
+        parameters["CustomOutputName"] = variable.value.outputName
+        parameters["UUID"] = variable.value.outputUUID?.uuidString
 
         return Action(identifier: self.identifier, parameters: parameters)
     }
