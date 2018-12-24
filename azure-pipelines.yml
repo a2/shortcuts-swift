@@ -8,7 +8,7 @@ steps:
   displayName: "Setup Environment"
 
 - script: |
-    fastlane build
+    bundle exec fastlane build
   displayName: "Build"
 
 - task: PublishBuildArtifacts@1
@@ -19,7 +19,7 @@ steps:
   displayName: "Store Build Log"
 
 - script: |
-    fastlane test
+    bundle exec fastlane test
   displayName: "Test"
 
 - task: PublishBuildArtifacts@1
