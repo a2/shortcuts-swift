@@ -32,6 +32,7 @@
 		5502FFF321D0F58400CE7544 /* ShortcutsSwift.playgroundbook in Resources */ = {isa = PBXBuildFile; fileRef = 5502FFF221D0F58400CE7544 /* ShortcutsSwift.playgroundbook */; };
 		83F8639621D1454600925583 /* Aggrandizement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8639521D1454600925583 /* Aggrandizement.swift */; };
 		83F8639821D15F7E00925583 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8639721D15F7E00925583 /* Dictionary.swift */; };
+		98D33C2721D3D29100824660 /* RunScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2621D3D29100824660 /* RunScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		5502FFF221D0F58400CE7544 /* ShortcutsSwift.playgroundbook */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ShortcutsSwift.playgroundbook; sourceTree = "<group>"; };
 		83F8639521D1454600925583 /* Aggrandizement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aggrandizement.swift; sourceTree = "<group>"; };
 		83F8639721D15F7E00925583 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		98D33C2621D3D29100824660 /* RunScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				5502FFD221D0F1A400CE7544 /* SetLowPowerMode.swift */,
 				5502FFD021D0F1A400CE7544 /* Share.swift */,
 				5502FFD121D0F1A400CE7544 /* ShowResult.swift */,
+				98D33C2621D3D29100824660 /* RunScene.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5502FFE621D0F1A400CE7544 /* SetLowPowerMode.swift in Sources */,
+				98D33C2721D3D29100824660 /* RunScene.swift in Sources */,
 				5502FFE821D0F1A400CE7544 /* Variable.swift in Sources */,
 				5502FFDA21D0F1A400CE7544 /* Attachment.swift in Sources */,
 				83F8639621D1454600925583 /* Aggrandizement.swift in Sources */,
