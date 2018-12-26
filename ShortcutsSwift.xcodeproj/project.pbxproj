@@ -32,6 +32,7 @@
 		5502FFF321D0F58400CE7544 /* ShortcutsSwift.playgroundbook in Resources */ = {isa = PBXBuildFile; fileRef = 5502FFF221D0F58400CE7544 /* ShortcutsSwift.playgroundbook */; };
 		83F8639621D1454600925583 /* Aggrandizement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8639521D1454600925583 /* Aggrandizement.swift */; };
 		83F8639821D15F7E00925583 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8639721D15F7E00925583 /* Dictionary.swift */; };
+		9826044721D414B2001E3B31 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826044621D414B2001E3B31 /* Number.swift */; };
 		98D33C2721D3D29100824660 /* RunScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2621D3D29100824660 /* RunScene.swift */; };
 		98D33C2921D3DA0A00824660 /* SplitText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2821D3DA0A00824660 /* SplitText.swift */; };
 		98D33C2B21D3E34100824660 /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2A21D3E34100824660 /* Repeat.swift */; };
@@ -77,6 +78,7 @@
 		5502FFF221D0F58400CE7544 /* ShortcutsSwift.playgroundbook */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ShortcutsSwift.playgroundbook; sourceTree = "<group>"; };
 		83F8639521D1454600925583 /* Aggrandizement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aggrandizement.swift; sourceTree = "<group>"; };
 		83F8639721D15F7E00925583 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		9826044621D414B2001E3B31 /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
 		98D33C2621D3D29100824660 /* RunScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunScene.swift; sourceTree = "<group>"; };
 		98D33C2821D3DA0A00824660 /* SplitText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitText.swift; sourceTree = "<group>"; };
 		98D33C2A21D3E34100824660 /* Repeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeat.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				98D33C2A21D3E34100824660 /* Repeat.swift */,
 				98D33C2F21D3EFF100824660 /* Calculate.swift */,
 				98D33C3321D4067C00824660 /* List.swift */,
+				9826044621D414B2001E3B31 /* Number.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				98D33C3021D3EFF100824660 /* Calculate.swift in Sources */,
 				83F8639621D1454600925583 /* Aggrandizement.swift in Sources */,
 				5502FFE021D0F1A400CE7544 /* ReplaceText.swift in Sources */,
+				9826044721D414B2001E3B31 /* Number.swift in Sources */,
 				5502FFE121D0F1A400CE7544 /* Conditional.swift in Sources */,
 				5502FFD921D0F1A400CE7544 /* InterpolatedText.swift in Sources */,
 				5502FFE721D0F1A400CE7544 /* GetBatteryLevel.swift in Sources */,
