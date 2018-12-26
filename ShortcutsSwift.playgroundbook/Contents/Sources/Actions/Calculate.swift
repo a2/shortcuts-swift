@@ -7,7 +7,7 @@ public enum MathOperation: String {
     case divide = "÷"
 }
 
-public func calculate(_ operation: MathOperation, value: Number) -> ActionContainer {
+public func calculate(_ operation: MathOperation, value: Number) -> ActionWithOutput {
     let parameters: PropertyList = [
         "WFMathOperation": operation.rawValue,
         "WFMathOperand": value
@@ -15,7 +15,7 @@ public func calculate(_ operation: MathOperation, value: Number) -> ActionContai
     return Action(identifier: "is.workflow.actions.math", parameters: parameters)
 }
 
-public func calculate(_ operation: MathOperation, with variable: ActionOutputVariable) -> ActionContainer {
+public func calculate(_ operation: MathOperation, with variable: ActionOutputVariable) -> ActionWithOutput {
     let parameters: PropertyList = [
         "WFMathOperation": operation.rawValue,
         "WFMathOperand": variable.propertyList
