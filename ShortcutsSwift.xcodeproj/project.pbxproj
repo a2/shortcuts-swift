@@ -36,6 +36,7 @@
 		98D33C2921D3DA0A00824660 /* SplitText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2821D3DA0A00824660 /* SplitText.swift */; };
 		98D33C2B21D3E34100824660 /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2A21D3E34100824660 /* Repeat.swift */; };
 		98D33C3021D3EFF100824660 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2F21D3EFF100824660 /* Calculate.swift */; };
+		98D33C3421D4067C00824660 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C3321D4067C00824660 /* List.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		98D33C2821D3DA0A00824660 /* SplitText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitText.swift; sourceTree = "<group>"; };
 		98D33C2A21D3E34100824660 /* Repeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeat.swift; sourceTree = "<group>"; };
 		98D33C2F21D3EFF100824660 /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
+		98D33C3321D4067C00824660 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				98D33C2821D3DA0A00824660 /* SplitText.swift */,
 				98D33C2A21D3E34100824660 /* Repeat.swift */,
 				98D33C2F21D3EFF100824660 /* Calculate.swift */,
+				98D33C3321D4067C00824660 /* List.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				5502FFEC21D0F29700CE7544 /* PlaygroundSupport.swift in Sources */,
 				5502FFEA21D0F1A400CE7544 /* Action.swift in Sources */,
 				83F8639821D15F7E00925583 /* Dictionary.swift in Sources */,
+				98D33C3421D4067C00824660 /* List.swift in Sources */,
 				98D33C2B21D3E34100824660 /* Repeat.swift in Sources */,
 				5502FFE421D0F1A400CE7544 /* Share.swift in Sources */,
 				98D33C2921D3DA0A00824660 /* SplitText.swift in Sources */,
