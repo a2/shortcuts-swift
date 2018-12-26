@@ -34,6 +34,8 @@
 		83F8639821D15F7E00925583 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8639721D15F7E00925583 /* Dictionary.swift */; };
 		98D33C2721D3D29100824660 /* RunScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2621D3D29100824660 /* RunScene.swift */; };
 		98D33C2921D3DA0A00824660 /* SplitText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2821D3DA0A00824660 /* SplitText.swift */; };
+		98D33C2B21D3E34100824660 /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2A21D3E34100824660 /* Repeat.swift */; };
+		98D33C3021D3EFF100824660 /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D33C2F21D3EFF100824660 /* Calculate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		83F8639721D15F7E00925583 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		98D33C2621D3D29100824660 /* RunScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunScene.swift; sourceTree = "<group>"; };
 		98D33C2821D3DA0A00824660 /* SplitText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitText.swift; sourceTree = "<group>"; };
+		98D33C2A21D3E34100824660 /* Repeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeat.swift; sourceTree = "<group>"; };
+		98D33C2F21D3EFF100824660 /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 				5502FFD021D0F1A400CE7544 /* Share.swift */,
 				5502FFD121D0F1A400CE7544 /* ShowResult.swift */,
 				98D33C2821D3DA0A00824660 /* SplitText.swift */,
+				98D33C2A21D3E34100824660 /* Repeat.swift */,
+				98D33C2F21D3EFF100824660 /* Calculate.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -301,6 +307,7 @@
 				98D33C2721D3D29100824660 /* RunScene.swift in Sources */,
 				5502FFE821D0F1A400CE7544 /* Variable.swift in Sources */,
 				5502FFDA21D0F1A400CE7544 /* Attachment.swift in Sources */,
+				98D33C3021D3EFF100824660 /* Calculate.swift in Sources */,
 				83F8639621D1454600925583 /* Aggrandizement.swift in Sources */,
 				5502FFE021D0F1A400CE7544 /* ReplaceText.swift in Sources */,
 				5502FFE121D0F1A400CE7544 /* Conditional.swift in Sources */,
@@ -314,6 +321,7 @@
 				5502FFEC21D0F29700CE7544 /* PlaygroundSupport.swift in Sources */,
 				5502FFEA21D0F1A400CE7544 /* Action.swift in Sources */,
 				83F8639821D15F7E00925583 /* Dictionary.swift in Sources */,
+				98D33C2B21D3E34100824660 /* Repeat.swift in Sources */,
 				5502FFE421D0F1A400CE7544 /* Share.swift in Sources */,
 				98D33C2921D3DA0A00824660 /* SplitText.swift in Sources */,
 				5502FFDD21D0F1A400CE7544 /* CopyToClipboard.swift in Sources */,
