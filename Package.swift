@@ -16,7 +16,7 @@ let package = Package(
             path:  "ShortcutsSwift.playgroundbook/Contents/Sources/",
             exclude: ["UI"]),
         .testTarget(
-            name: "shortcutsSwiftTests",
+            name: "ShortcutsSwiftTests",
             dependencies: ["ShortcutsSwift"],
             path: "Tests")
     ]
