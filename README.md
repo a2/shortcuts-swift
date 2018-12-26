@@ -38,6 +38,11 @@ let shortcut = buildShortcut(
     ])
 )
 ```
+## Swift Package Manager
+
+```swift
+.package(url: "https://github.com/a2/shortcuts-swift", from: "1.0.0")
+```
 
 ## Contributing
 
