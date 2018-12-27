@@ -164,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				5502FFCA21D0F1A300CE7544 /* AskForInput.swift */,
+				98D33C2F21D3EFF100824660 /* Calculate.swift */,
 				5502FFCE21D0F1A400CE7544 /* ChangeCase.swift */,
 				5502FFCF21D0F1A400CE7544 /* ChooseFromMenu.swift */,
 				5502FFCB21D0F1A400CE7544 /* Comment.swift */,
@@ -171,16 +172,15 @@
 				5502FFC921D0F1A300CE7544 /* CopyToClipboard.swift */,
 				83F8639721D15F7E00925583 /* Dictionary.swift */,
 				5502FFD321D0F1A400CE7544 /* GetBatteryLevel.swift */,
+				98D33C3321D4067C00824660 /* List.swift */,
+				9826044621D414B2001E3B31 /* Number.swift */,
+				98D33C2A21D3E34100824660 /* Repeat.swift */,
 				5502FFCC21D0F1A400CE7544 /* ReplaceText.swift */,
 				98D33C2621D3D29100824660 /* RunScene.swift */,
 				5502FFD221D0F1A400CE7544 /* SetLowPowerMode.swift */,
 				5502FFD021D0F1A400CE7544 /* Share.swift */,
 				5502FFD121D0F1A400CE7544 /* ShowResult.swift */,
 				98D33C2821D3DA0A00824660 /* SplitText.swift */,
-				98D33C2A21D3E34100824660 /* Repeat.swift */,
-				98D33C2F21D3EFF100824660 /* Calculate.swift */,
-				98D33C3321D4067C00824660 /* List.swift */,
-				9826044621D414B2001E3B31 /* Number.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
