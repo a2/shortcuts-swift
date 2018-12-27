@@ -4,9 +4,10 @@ struct Item {
     let type: String
     let value: PropertyList
     var propertyList: PropertyList {
-        return ["WFItemType": type,
-                "WFValue" : value
-                ]
+        return [
+            "WFItemType": type,
+            "WFValue" : value
+        ]
     }
 }
 
