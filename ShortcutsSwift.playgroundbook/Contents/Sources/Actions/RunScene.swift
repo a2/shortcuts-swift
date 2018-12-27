@@ -1,6 +1,5 @@
 import Foundation
 
-
 /// This methods creates an Action that runs a HomeKit scene
 ///
 /// - Parameters:
