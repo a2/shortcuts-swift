@@ -30,12 +30,4 @@ class ShortcutsSwiftTests: XCTestCase {
             ])
         )
     }
-
-    func testDictionaryAggrandizements() {
-        let dictionaryVariable = actionOutput()
-        _ = buildShortcut(
-            dictionary(["number": 42]).savingOutput(to: dictionaryVariable) +
-            showResult("\(dictionaryVariable.with(valueForKey: "number"))")
-        )
-    }
 }
