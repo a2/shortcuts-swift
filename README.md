@@ -1,4 +1,4 @@
-This repository has been replaced with [SwiftShortcuts](https://github.com/a2/swift-shortcuts), and is archived for reference.
+*This repository has been replaced with [SwiftShortcuts](https://github.com/a2/swift-shortcuts), and is archived for reference.*
 
 ![Banner](https://raw.githubusercontent.com/a2/shortcuts-swift/master/banner.png)
 
